@@ -7,7 +7,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 Python 3.6 Hangman game
 
 ## How to initiate the hangman game?
-Navigate to the root of the repository and run /Hangman/hangman.py from your terminal
+Navigate to the root of the repository and run **hangman.py** from your terminal
 
 ## How to play the game?
 The game will start by hinting the number of characters in the word to be guessed.
