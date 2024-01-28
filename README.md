@@ -48,8 +48,19 @@ Congratulations. You won the game!
 ```
 ## Tailoring the code
 
+You may want to tailor the game to play with the words you choose and you may also want to modify the number of lives you are given at the begining. To modify these parameters you will need to change the following variables in the `hangman.py` python code: `word_list` and `num_lives`:
 
+`word_list`: this variable is defined in **line 125** of the code and it contains the list of mistery words to be used in the game. Each time you run the game, a word from the list will be chosen at random. This parameter must be stored as a python list. By default the list of words is shown below but the list can be modified to suit your taste.
 
+```python
+word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
+```
+
+`num_lives`: this variable is defined in **line 126** of the code and it is defined as an integer of the number of lives the player has. By default you will start the game with 5 lives:
+
+```python
+num_lives = 5
+```
 
 ## Programming language
 Python 3.6

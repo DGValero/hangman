@@ -106,8 +106,8 @@ class Hangman:
             print('Invalid letter. Please, enter a single alphabetical character.')
 
 
-def play_game(word_list):
-    game = Hangman(word_list, num_lives=5)
+def play_game(word_list, num_lives):
+    game = Hangman(word_list, num_lives)
 
     #Iteratively ask the user for a letter until 
     #the user guesses the word or runs out of lives:
@@ -123,5 +123,6 @@ def play_game(word_list):
 
 if __name__ == '__main__':
     word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
-    play_game(word_list)
+    num_lives = 5
+    play_game(word_list, num_lives)
 # %%
