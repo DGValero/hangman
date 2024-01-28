@@ -1,39 +1,16 @@
-# Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+# Hangman - a python game
+![Hangman_cover_image](240_F_248961156_XeSISXFo6bcFUw830wpE2zPLxWGCl1u9.jpg)
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+In the classic children's game of Hangman, a player's objective is to identify a hidden word of which only the number of letters is originally revealed. In each round, the player guesses a letter of the alphabet: if it's present in the word, all instances are revealed; otherwise one of the hangman's body parts is drawn in on a gibbet. The game ends in a win if the word is entirely revealed by correct guesses, and ends in loss if the hangman's body is completely revealed instead. To assist the player, a visible record of all guessed letters is maintained.
 
-## Programming language
-Python 3.6
-
-## Dependencies
-- *Python 3.6*
-- Python's *random* module
-- *git* to clone the repo
-
-## Installation instructions
-### Initialising the repository in an existing directory:
-First initialise git bash. Then you will need to navigate to the folder directory where you would like to save the game. For example in Windows:
-> cd C:/Users/user/my_games
-
-To get a copy of this repository, you can do so with the following command:
-> git clone https://github.com/DGValero/hangman.git
-
-### How to initiate the hangman game?
-Navigate to the root of the repository. Following the example above, it would be:
-> cd C:/Users/user/my_games/hangman
-
-and run **hangman.py** from your terminal:
-
-> python hangman.py
+This is an implementation of the Hangman game, where the computer chooses a secret word and the user tries to guess it. 
 
 ## How to play the game?
+To win the game you will have to guess the mistery word, before running out of lives.
 The game will start by hinting the number of characters in the word to be guessed.
-Type a guess of your chosen single alphabetic character. The game will tell you if your guess was correct or not.
-You will start with 5 lives and will lose a live for each incorrect attempt to guess a letter of the mistery word.
-The game will terminate when you guess the word or run out of lives.
+The user will then be asked to type a guess of a chosen single alphabetic character. If your guess was in the mistery word, the letter/s guessed will be shown on the screen. However, if you were incorrect you will lose a live. You will start with 5 lives and will lose the game if you run out of lives.
 
-**Enjoy!**
+**Enjoy the game!**
 
 ## Usage example
 Upon intialising the game you will be told the number of characters in the mistery word and a representation of the word with dashed lines:
@@ -66,3 +43,31 @@ Good guess, e is in the word.
 
 Congratulations. You won the game!
 ```
+## Tailoring the code
+
+
+
+
+## Programming language
+Python 3.6
+
+## Dependencies
+- *Python 3.6*
+- Python's *random* module
+- *git* to clone the repo
+
+## Installation instructions
+### Initialising the repository in an existing directory:
+First initialise git bash. Then you will need to navigate to the folder directory where you would like to save the game. For example in Windows:
+> cd C:/Users/user/my_games
+
+To get a copy of this repository, you can do so with the following command:
+> git clone https://github.com/DGValero/hangman.git
+
+### How to initiate the hangman game?
+Navigate to the root of the repository. Following the example above, it would be:
+> cd C:/Users/user/my_games/hangman
+
+and run **hangman.py** from your terminal:
+
+> python hangman.py
