@@ -52,7 +52,7 @@ class Hangman:
         self.list_letters=[]
 
         #Print messages upon initialization:
-        print(f"The mistery word has {len(self.word)} characters")
+        print(f"The mystery word has {len(self.word)} characters")
         print(f"{self.word_guessed}\n")
 
     def check_letter(self, guess) -> None:
